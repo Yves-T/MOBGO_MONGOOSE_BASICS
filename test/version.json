@@ -1,0 +1,10 @@
+{
+    "name": "testdrivenexp",
+    "engines": {
+        "node": ">=8"
+    },
+    "scripts": {
+        "requirements-check": "babel-node check-version.js",
+        "postinstall": "npm run requirements-check"
+    }
+}
